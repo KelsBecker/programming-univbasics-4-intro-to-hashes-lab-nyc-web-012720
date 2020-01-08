@@ -33,7 +33,7 @@ def read_from_hash(hash, key)
 end
 
 def update_counting_hash(hash, key)
-    hash[key] ? hash[key] += 1 : hash[key] = 1
+    hash[key] ? hash[key] += 1 : hash[key] = 1 #conditional value is hash[key] if true increments by one, if false returns the conditional value with a value of 1
     hash
 end
   # given a hash an a key as parameters, return an updated hash
